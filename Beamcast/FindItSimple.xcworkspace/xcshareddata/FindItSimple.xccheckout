@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6EAB418A-DC7C-442B-B774-5B79221D36ED</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FindItSimple</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>645ea227-557f-d749-8bde-4c705be2f1cd++5661</key>
+		<string>http://dev35/svn/rocs/Bluetooth/iBeacon/Beamcast/iPhone/4.0</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Beamcast/FindItSimple.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>645ea227-557f-d749-8bde-4c705be2f1cd++5661</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>645ea227-557f-d749-8bde-4c705be2f1cd++5661</key>
+		<string>http://dev35/svn/rocs</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://dev35/svn/rocs/Bluetooth/iBeacon/Beamcast/iPhone/4.0/Beamcast/FindItSimple.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>645ea227-557f-d749-8bde-4c705be2f1cd++5661</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>645ea227-557f-d749-8bde-4c705be2f1cd++5661</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Beamcast</string>
+		</dict>
+	</array>
+</dict>
+</plist>

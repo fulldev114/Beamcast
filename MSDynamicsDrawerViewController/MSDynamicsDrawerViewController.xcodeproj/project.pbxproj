@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF3225B8188E43F800B516C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3225B7188E43F800B516C5 /* Foundation.framework */; };
+		AF3225BD188E43F800B516C5 /* MSDynamicsDrawerViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF3225BC188E43F800B516C5 /* MSDynamicsDrawerViewController.h */; };
+		AF3225BF188E43F800B516C5 /* MSDynamicsDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3225BE188E43F800B516C5 /* MSDynamicsDrawerViewController.m */; };
+		AF3225C6188E43F800B516C5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3225C5188E43F800B516C5 /* XCTest.framework */; };
+		AF3225C7188E43F800B516C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3225B7188E43F800B516C5 /* Foundation.framework */; };
+		AF3225C9188E43F800B516C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3225C8188E43F800B516C5 /* UIKit.framework */; };
+		AF3225CC188E43F800B516C5 /* libMSDynamicsDrawerViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3225B4188E43F800B516C5 /* libMSDynamicsDrawerViewController.a */; };
+		AF3225D2188E43F800B516C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF3225D0188E43F800B516C5 /* InfoPlist.strings */; };
+		AF3225D4188E43F800B516C5 /* MSDynamicsDrawerViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3225D3188E43F800B516C5 /* MSDynamicsDrawerViewControllerTests.m */; };
+		AF3225DF188E443700B516C5 /* MSDynamicsDrawerStyler.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3225DE188E443700B516C5 /* MSDynamicsDrawerStyler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF3225CA188E43F800B516C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF3225AC188E43F800B516C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF3225B3188E43F800B516C5;
+			remoteInfo = MSDynamicsDrawerViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF3225B2188E43F800B516C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				AF3225BD188E43F800B516C5 /* MSDynamicsDrawerViewController.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF3225B4188E43F800B516C5 /* libMSDynamicsDrawerViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSDynamicsDrawerViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3225B7188E43F800B516C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF3225BB188E43F800B516C5 /* MSDynamicsDrawerViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MSDynamicsDrawerViewController-Prefix.pch"; sourceTree = "<group>"; };
+		AF3225BC188E43F800B516C5 /* MSDynamicsDrawerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSDynamicsDrawerViewController.h; sourceTree = "<group>"; };
+		AF3225BE188E43F800B516C5 /* MSDynamicsDrawerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSDynamicsDrawerViewController.m; sourceTree = "<group>"; };
+		AF3225C4188E43F800B516C5 /* MSDynamicsDrawerViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSDynamicsDrawerViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3225C5188E43F800B516C5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AF3225C8188E43F800B516C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AF3225CF188E43F800B516C5 /* MSDynamicsDrawerViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MSDynamicsDrawerViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		AF3225D1188E43F800B516C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF3225D3188E43F800B516C5 /* MSDynamicsDrawerViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSDynamicsDrawerViewControllerTests.m; sourceTree = "<group>"; };
+		AF3225DD188E443700B516C5 /* MSDynamicsDrawerStyler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDynamicsDrawerStyler.h; sourceTree = "<group>"; };
+		AF3225DE188E443700B516C5 /* MSDynamicsDrawerStyler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDynamicsDrawerStyler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF3225B1188E43F800B516C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3225B8188E43F800B516C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3225C1188E43F800B516C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3225C6188E43F800B516C5 /* XCTest.framework in Frameworks */,
+				AF3225CC188E43F800B516C5 /* libMSDynamicsDrawerViewController.a in Frameworks */,
+				AF3225C9188E43F800B516C5 /* UIKit.framework in Frameworks */,
+				AF3225C7188E43F800B516C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF3225AB188E43F800B516C5 = {
+			isa = PBXGroup;
+			children = (
+				AF3225B9188E43F800B516C5 /* MSDynamicsDrawerViewController */,
+				AF3225CD188E43F800B516C5 /* MSDynamicsDrawerViewControllerTests */,
+				AF3225B6188E43F800B516C5 /* Frameworks */,
+				AF3225B5188E43F800B516C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF3225B5188E43F800B516C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF3225B4188E43F800B516C5 /* libMSDynamicsDrawerViewController.a */,
+				AF3225C4188E43F800B516C5 /* MSDynamicsDrawerViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF3225B6188E43F800B516C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF3225B7188E43F800B516C5 /* Foundation.framework */,
+				AF3225C5188E43F800B516C5 /* XCTest.framework */,
+				AF3225C8188E43F800B516C5 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF3225B9188E43F800B516C5 /* MSDynamicsDrawerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AF3225DD188E443700B516C5 /* MSDynamicsDrawerStyler.h */,
+				AF3225DE188E443700B516C5 /* MSDynamicsDrawerStyler.m */,
+				AF3225BC188E43F800B516C5 /* MSDynamicsDrawerViewController.h */,
+				AF3225BE188E43F800B516C5 /* MSDynamicsDrawerViewController.m */,
+				AF3225BA188E43F800B516C5 /* Supporting Files */,
+			);
+			path = MSDynamicsDrawerViewController;
+			sourceTree = "<group>";
+		};
+		AF3225BA188E43F800B516C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF3225BB188E43F800B516C5 /* MSDynamicsDrawerViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF3225CD188E43F800B516C5 /* MSDynamicsDrawerViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF3225D3188E43F800B516C5 /* MSDynamicsDrawerViewControllerTests.m */,
+				AF3225CE188E43F800B516C5 /* Supporting Files */,
+			);
+			path = MSDynamicsDrawerViewControllerTests;
+			sourceTree = "<group>";
+		};
+		AF3225CE188E43F800B516C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF3225CF188E43F800B516C5 /* MSDynamicsDrawerViewControllerTests-Info.plist */,
+				AF3225D0188E43F800B516C5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF3225B3188E43F800B516C5 /* MSDynamicsDrawerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3225D7188E43F800B516C5 /* Build configuration list for PBXNativeTarget "MSDynamicsDrawerViewController" */;
+			buildPhases = (
+				AF3225B0188E43F800B516C5 /* Sources */,
+				AF3225B1188E43F800B516C5 /* Frameworks */,
+				AF3225B2188E43F800B516C5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSDynamicsDrawerViewController;
+			productName = MSDynamicsDrawerViewController;
+			productReference = AF3225B4188E43F800B516C5 /* libMSDynamicsDrawerViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AF3225C3188E43F800B516C5 /* MSDynamicsDrawerViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3225DA188E43F800B516C5 /* Build configuration list for PBXNativeTarget "MSDynamicsDrawerViewControllerTests" */;
+			buildPhases = (
+				AF3225C0188E43F800B516C5 /* Sources */,
+				AF3225C1188E43F800B516C5 /* Frameworks */,
+				AF3225C2188E43F800B516C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF3225CB188E43F800B516C5 /* PBXTargetDependency */,
+			);
+			name = MSDynamicsDrawerViewControllerTests;
+			productName = MSDynamicsDrawerViewControllerTests;
+			productReference = AF3225C4188E43F800B516C5 /* MSDynamicsDrawerViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF3225AC188E43F800B516C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jain R";
+			};
+			buildConfigurationList = AF3225AF188E43F800B516C5 /* Build configuration list for PBXProject "MSDynamicsDrawerViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF3225AB188E43F800B516C5;
+			productRefGroup = AF3225B5188E43F800B516C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF3225B3188E43F800B516C5 /* MSDynamicsDrawerViewController */,
+				AF3225C3188E43F800B516C5 /* MSDynamicsDrawerViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF3225C2188E43F800B516C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3225D2188E43F800B516C5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF3225B0188E43F800B516C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3225BF188E43F800B516C5 /* MSDynamicsDrawerViewController.m in Sources */,
+				AF3225DF188E443700B516C5 /* MSDynamicsDrawerStyler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3225C0188E43F800B516C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3225D4188E43F800B516C5 /* MSDynamicsDrawerViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF3225CB188E43F800B516C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF3225B3188E43F800B516C5 /* MSDynamicsDrawerViewController */;
+			targetProxy = AF3225CA188E43F800B516C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF3225D0188E43F800B516C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF3225D1188E43F800B516C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF3225D5188E43F800B516C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF3225D6188E43F800B516C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF3225D8188E43F800B516C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MSDynamicsDrawerViewController.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MSDynamicsDrawerViewController/MSDynamicsDrawerViewController-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AF3225D9188E43F800B516C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MSDynamicsDrawerViewController.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MSDynamicsDrawerViewController/MSDynamicsDrawerViewController-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AF3225DB188E43F800B516C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MSDynamicsDrawerViewController/MSDynamicsDrawerViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MSDynamicsDrawerViewControllerTests/MSDynamicsDrawerViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AF3225DC188E43F800B516C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MSDynamicsDrawerViewController/MSDynamicsDrawerViewController-Prefix.pch";
+				INFOPLIST_FILE = "MSDynamicsDrawerViewControllerTests/MSDynamicsDrawerViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF3225AF188E43F800B516C5 /* Build configuration list for PBXProject "MSDynamicsDrawerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3225D5188E43F800B516C5 /* Debug */,
+				AF3225D6188E43F800B516C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3225D7188E43F800B516C5 /* Build configuration list for PBXNativeTarget "MSDynamicsDrawerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3225D8188E43F800B516C5 /* Debug */,
+				AF3225D9188E43F800B516C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3225DA188E43F800B516C5 /* Build configuration list for PBXNativeTarget "MSDynamicsDrawerViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3225DB188E43F800B516C5 /* Debug */,
+				AF3225DC188E43F800B516C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF3225AC188E43F800B516C5 /* Project object */;
+}
